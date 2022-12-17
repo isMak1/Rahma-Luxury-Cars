@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/luxury.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/popup.css">
+
+        <title>Rahma Auto luxury cars</title>
+    </head>
+    <body id="body">
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-steering-line"></i>
+                    RAHMA AUTO
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Inventory</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section id="vidsection" class="home section" id="home">
+
+                <video id="lambovid" src="assets/vid/lambovid.mp4" autoplay="true" loop="true" muted="true"></video>
+                <div class="shape shape__big"></div>
+                <div class="shape shape__small"></div>
+
+                <div id="vidtext" class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            The best Sports Cars Deals In Canada
+                        </h1>
+
+                        <h2 class="home__subtitle">
+                            Lamborghini Aventador
+                        </h2>
+
+                        <h3 class="home__elec">
+                            <i id="electric" class="ri-flashlight-fill"></i> Light Speed
+                        </h3>
+                    </div>
+
+                    <a href="#about" class="home__button">START</a>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__group">
+                        <img src="assets/img/lambointerior.png" alt="" class="about__img">
+
+                        <div class="about__card">
+                            <h3 class="about__card-title">355KM/H</h3>
+                            <p class="about__card-description">
+                                A Car that Goes 0-100 in 2.8 seconds
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Machines With <br> Unmatched Design
+                        </h2>
+
+                        <p class="about__description">
+                            Each and every detail of the Aventador bears the hallmarks of the House of the Raging Bull. It is a true masterpiece of design that expresses dynamism and power, with the carbon-fiber monocoque the jewel in its crown. The interior combines high-level technology and luxury equipment, crafted by skilled artisans using 
+                        </p>
+
+                        <a href="#vidsection2" class="button">Learn more</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== FEATURES ====================-->
+            <section class="features section">
+                <h2 class="section__title">
+                    More Features
+                </h2>
+
+                <div class="features__container container grid">
+                    <div class="features__group">
+                        <img src="assets/img/topviewlambo.png" alt="" class="features__img">
+
+                        <div class="features__card features__card-1">
+                            <h3 class="features__card-title">780CV</h3>
+                            <p class="features__card-description">(574kW) <br> POWER</p>
+                        </div>
+
+                        <div class="features__card features__card-2">
+                            <h3 class="features__card-title">350</h3>
+                            <p class="features__card-description">Km/h <br> SPEED</p>
+                        </div>
+
+                        <div class="features__card features__card-3">
+                            <h3 class="features__card-title">100</h3>
+                            <p class="features__card-description">Km/h<br> In 28s</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <img  src="assets/img/map.svg" alt="" class="features__map">
+            </section>
+
+
+            <!--==================== FEATURES ====================-->
+            <section id="vidsection2" class="features section">
+                <video id="lambovid" src="assets/vid/infovid.mp4" autoplay="true" loop="true" muted="true"></video>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section" id="featured">
+                <h2 class="section__title">
+                    Featured Luxury Cars
+                </h2>
+
+                <div class="featured__container container">
+                    <ul class="featured__filters">
+                        <li>
+                            <button class="featured__item active-featured" data-filter="all">
+                                <span>All</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".lamborghini">
+                                <img src="assets/img/logo4.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".audi">
+                                <img src="assets/img/logo2.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".mercedes">
+                                <img src="assets/img/logo7.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".chevrolet">
+                                <img src="assets/img/logo6.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".bmw">
+                                <img src="assets/img/logo5.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".mclaren">
+                                <img src="assets/img/logo8.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".ferrari">
+                                <img src="assets/img/logo9.png" alt="">
+                            </button>
+                        </li>
+
+                    </ul>
+
+                    <div class="featured__content grid">
+
+                        <div class="mix ferrari">
+                            <article class="featured__card mix ferrari">
+                                <div class="shape shape__smaller"></div>
+        
+                                <h1 class="featured__title">Ferrari</h1>
+                                <h3 class="featured__subtitle">Laferrari</h3>
+        
+                                <img src="assets/img/gas10.png" alt="" class="featured__img">
+        
+                                <h3 class="featured__price">$999,999.00</h3>
+                                <a href="https://buy.stripe.com/eVa02Rciw5In7O87sJ" target="_blank" rel="noopener">
+                                <button class="button featured__button">
+                                    <i class="ri-shopping-bag-2-line"></i>
+                                </button>
+                                </a>
+                            </article> 
+                            <div class="featured__card popupcontainer pop1 mix ferrari">
+                                <div class="content ">
+                                  <h1 >Ferrari Accessoires</h1>
+                                  <img src="assets/img/ferrariwheel.png" alt="" class="featured__img">
+                                  <p class="featured__subtitle">4 X Tier</p>
+                                  <span class="featured__price">$8,500.00</span>
+                                  <a href="https://buy.stripe.com/fZeg1PgyM2wbfgAbJ4" target="_blank" rel="noopener" class="buybutton add-cart-btn">Buy</a>
+                                </div>
+                                <div class="toggleBtn btn1"></div>
+                            </div>
+                        </div>
+
+                        <div class="mix lamborghini">
+                            <article class="featured__card mix lamborghini">
+                                <div class="shape shape__smaller"></div>
+
+                                <h1 class="featured__title">Lamborghini</h1>
+                                <h3 class="featured__subtitle">Aventador S LP 740-4</h3>
+
+                                <img src="assets/img/gas4.png" alt="" class="featured__img">
+
+                                <h3 class="featured__price">$890,900.00</h3>
+                                <a href="https://buy.stripe.com/8wM9Drciwgn14BWdR0" target="_blank" rel="noopener">
+                                    <button class="button featured__button">
+                                        <i class="ri-shopping-bag-2-line"></i>
+                                    </button>
+                                </a>
+                            </article>
+                            <div class="featured__card popupcontainer pop2 mix lamborghini">
+                                <div class="content">
+                                <h1 >Lamborghini Accessoires</h1>
+                                <img  src="assets/img/lamborghiniwheel.png" alt="" class="featured__img">
+                                <p class="featured__subtitle">4 X Tier</p>
+                                <span class="featured__price">$9,500.00</span>
+                                <a href="https://buy.stripe.com/cN2cPD3M0b2H2tO5kE" target="_blank" rel="noopener" class="buybutton add-cart-btn">Buy</a>
+                                </div>
+                                <div class="toggleBtn btn2"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="mix lamborghini">
+                            <article class="featured__card mix lamborghini">
+                                <div class="shape shape__smaller"></div>
+    
+                                <h1 class="featured__title">Lamborghini</h1>
+                                <h3 class="featured__subtitle">Centenario LP 770-4</h3>
+    
+                                <img src="assets/img/gas5.png" alt="" class="featured__img">
+    
+                                <h3 class="featured__price">$999,999.00</h3>
+                                <a href="https://buy.stripe.com/bIY7vj82geeT6K44gr" target="_blank" rel="noopener">
+                                    <button class="button featured__button">
+                                        <i class="ri-shopping-bag-2-line"></i>
+                                    </button>
+                                </a>
+                            </article>
+                            <div class="featured__card popupcontainer pop3 mix lamborghini">
+                                <div class="content ">
+                                  <h1 >Lamborghini Accessoires</h1>
+                                  <img src="assets/img/lamborghiniwheel.png" alt="" class="featured__img">
+                                  <p class="featured__subtitle">4 X Tier</p>
+                                  <span class="featured__price">$9,500.00</span>
+                                  <a href="https://buy.stripe.com/4gwbLz4Q44Ejd8s6oJ" target="_blank" rel="noopener" class="buybutton add-cart-btn">Buy</a>
+                                </div>
+                                <div class="toggleBtn btn3"></div>
+                            </div>
+                        </div>
+
+                        <div class="mix mclaren">
+                            <article class="featured__card mix mclaren">
+                                <div class="shape shape__smaller"></div>
+    
+                                <h1 class="featured__title">McLaren</h1>
+                                <h3 class="featured__subtitle">720s spider price</h3>
+    
+                                <img src="assets/img/gas11.png" alt="" class="featured__img">
+    
+                                <h3 class="featured__price">$284,745.00</h3>
+                                <a href="https://buy.stripe.com/28o4j7aaofiXgkEeVc" target="_blank" rel="noopener">
+                                    <button class="button featured__button">
+                                        <i class="ri-shopping-bag-2-line"></i>
+                                    </button>
+                                </a>
+                            </article>
+                            <div class="featured__card popupcontainer pop4 mix mclaren">
+                                <div class="content ">
+                                  <h1 >McLaren Accessoires</h1>
+                                  <img src="assets/img/mclarenwheel.png" alt="" class="featured__img">
+                                  <p class="featured__subtitle">4 X Tier</p>
+                                  <span class="featured__price">$10,500.00</span>
+                                  <a href="https://buy.stripe.com/6oE02R3M09YD0lG00n" target="_blank" rel="noopener" class="buybutton add-cart-btn">Buy</a>
+                                </div>
+                                <div class="toggleBtn btn4"></div>
+                            </div>
+                        </div>
+
+                        <div class="mix mercedes">
+                            <article class="featured__card mix mercedes">
+                                <div class="shape shape__smaller"></div>
+    
+                                <h1 class="featured__title">Mercedes</h1>
+                                <h3 class="featured__subtitle">AMG GT SPECIAL</h3>
+    
+                                <img src="assets/img/gas8.png" alt="" class="featured__img">
+    
+                                <h3 class="featured__price">$128,000.00</h3>
+                                <a href="https://buy.stripe.com/9AQ7vjciw0o3b0k8wI" target="_blank" rel="noopener">
+                                    <button class="button featured__button">
+                                        <i class="ri-shopping-bag-2-line"></i>
+                                    </button>
+                                </a>
+                            </article>
+                            <div class="featured__card popupcontainer pop5 mix mercedes">
+                                <div class="content ">
+                                  <h1 >Mercedes Accessoires</h1>
+                                  <img src="assets/img/mercedeswheel.png" alt="" class="featured__img">
+                                  <p class="featured__subtitle">4 X Tier</p>
+                                  <span class="featured__price">$8,500.00</span>
+                                  <a href="https://buy.stripe.com/7sI7vjeqEgn18ScbJ6" target="_blank" rel="noopener" class="buybutton add-cart-btn">Buy</a>
+                                </div>
+                                <div class="toggleBtn btn5 "></div>
+                            </div>
+                        </div>
+
+                        <div class="mix bmw">
+                            <article class="featured__card mix bmw">
+                                <div class="shape shape__smaller"></div>
+    
+                                <h1 class="featured__title">BMW</h1>
+                                <h3 class="featured__subtitle">I8</h3>
+    
+                                <img src="assets/img/hybrid1.png" alt="" class="featured__img">
+    
+                                <h3 class="featured__price">$148,495.00</h3>
+                                <a href="https://buy.stripe.com/5kA8zndmA3Af6K4fZb" target="_blank" rel="noopener">
+                                    <button class="button featured__button">
+                                        <i class="ri-shopping-bag-2-line"></i>
+                                    </button>
+                                </a>
+                            </article>
+                            <div class="featured__card popupcontainer pop6 mix bmw">
+                                <div class="content ">
+                                  <h1 >BMW Accessoires</h1>
+                                  <img src="assets/img/bmwwheel.png" alt="" class="featured__img">
+                                  <p class="featured__subtitle">4 X Tier</p>
+                                  <span class="featured__price">$9,500.00</span>
+                                  <a href="https://buy.stripe.com/4gw3f396k5In3xS7sR" target="_blank" rel="noopener" class="buybutton add-cart-btn">Buy</a>
+                                </div>
+                                <div class="toggleBtn btn6 "></div>
+                            </div>
+                        </div>
+
+                        <div class="mix mercedes">
+                            <article class="featured__card mix mercedes">
+                                <div class="shape shape__smaller"></div>
+    
+                                <h1 class="featured__title">Mercedes</h1>
+                                <h3 class="featured__subtitle">AMG GT 63E</h3>
+    
+                                <img src="assets/img/gas7.png" alt="" class="featured__img">
+    
+                                <h3 class="featured__price">$175,900.00</h3>
+                                <a href="https://buy.stripe.com/5kA8zn0zO8Uz8Sc7sG" target="_blank" rel="noopener">
+                                    <button class="button featured__button">
+                                        <i class="ri-shopping-bag-2-line"></i>
+                                    </button>
+                                </a>
+                            </article>
+                            <div class="featured__card popupcontainer pop7 mix mercedes">
+                                <div class="content ">
+                                  <h1 >Mercedes Accessoires</h1>
+                                  <img src="assets/img/mercedeswheel.png" alt="" class="featured__img">
+                                  <p class="featured__subtitle">4 X Tier</p>
+                                  <span class="featured__price">$8,500.00</span>
+                                  <a href="https://buy.stripe.com/7sI7vjeqEgn18ScbJ6" target="_blank" rel="noopener" class="buybutton add-cart-btn">Buy</a>
+                                </div>
+                                <div class="toggleBtn btn7 "></div>
+                            </div>
+                        </div>
+
+                        <div class="mix chevrolet">
+                            <article class="featured__card mix chevrolet">
+                                <div class="shape shape__smaller"></div>
+    
+                                <h1 class="featured__title">Chevrolet</h1>
+                                <h3 class="featured__subtitle">Corvette</h3>
+    
+                                <img src="assets/img/gas3.png" alt="" class="featured__img">
+    
+                                <h3 class="featured__price">$94,410.00</h3>
+                                <a href="https://buy.stripe.com/14k4j72HW2wbb0k6oD" target="_blank" rel="noopener">
+                                    <button class="button featured__button">
+                                        <i class="ri-shopping-bag-2-line"></i>
+                                    </button>
+                                </a>
+                            </article>
+                            <div class="featured__card popupcontainer pop8 mix chevrolet">
+                                <div class="content ">
+                                  <h1>Chevrolet Accessoires</h1>
+                                  <img src="assets/img/chevroletwheel.png" alt="" class="featured__img">
+                                  <p class="featured__subtitle">4 X Tier</p>
+                                  <span class="featured__price">$9,500.00</span>
+                                  <a href="https://buy.stripe.com/28o3f3ciw7Qvd8s8wW" target="_blank" rel="noopener" class="buybutton add-cart-btn">Buy</a>
+                                </div>
+                                <div class="toggleBtn btn8 "></div>
+                            </div>
+                        </div>
+
+                        <div class="mix audi">
+                            <article class="featured__card mix audi">
+                                <div class="shape shape__smaller"></div>
+    
+                                <h1 class="featured__title">Audi</h1>
+                                <h3 class="featured__subtitle">R8 Spyder V10</h3>
+    
+                                <img src="assets/img/gas2.png" alt="" class="featured__img">
+    
+                                <h3 class="featured__price">$211,900.00</h3>
+                                <a href="https://buy.stripe.com/fZe6rf96k2wbc4o14k" target="_blank" rel="noopener">
+                                    <button class="button featured__button">
+                                        <i class="ri-shopping-bag-2-line"></i>
+                                    </button>
+                                </a>
+                            </article>
+                            <div class="featured__card popupcontainer pop9 mix audi">
+                                <div class="content ">
+                                  <h1 >Audi Accessoires</h1>
+                                  <img src="assets/img/audiwheel.png" alt="" class="featured__img">
+                                  <p class="featured__subtitle">4 X Tier</p>
+                                  <span class="featured__price">$8,500.00</span>
+                                  <a href="https://buy.stripe.com/fZe2aZ0zO2wb9WgdRh" target="_blank" rel="noopener" class="buybutton add-cart-btn">Buy</a>
+                                </div>
+                                <div class="toggleBtn btn9 "></div>
+                            </div>
+                        </div>
+ 
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== OFFER ====================-->
+            <section class="offer section">
+                <div class="offer__container container grid">
+                    <img src="assets/img/offer-bg.png" alt="" class="offer__bg">
+
+                    <div class="offer__data">
+                        <h2 class="section__title offer__title">
+                            Do You Want To Receive <br> Special Offers?
+                        </h2>
+
+                        <p class="offer__description">
+                            Be the first to receive all the information about our 
+                            products and new cars by email by subscribing to our 
+                            mailing list.
+                        </p>
+
+                        <a href="form.html" class="button">
+                            Subscribe Now
+                        </a>
+                    </div>
+
+                    <img src="assets/img/homelambo.png" alt="" class="offer__img">
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="logos__slider">                
+                    <div class="logos__container container grid">
+                        <div class="logos__content">
+                            <img src="assets/img/logo1.png" alt="" class="logos__img">
+                        </div>
+                        <div class="logos__content">
+                            <img src="assets/img/logo2.png" alt="" class="logos__img">
+                        </div>
+
+                        <div class="logos__content">
+                            <img src="assets/img/logo4.png" alt="" class="logos__img">
+                        </div>
+                        <div class="logos__content">
+                            <img src="assets/img/logo5.png" alt="" class="logos__img">
+                        </div>
+                        <div class="logos__content">
+                            <img src="assets/img/logo6.png" alt="" class="logos__img">
+                        </div>
+                        <div class="logos__content">
+                            <img src="assets/img/logo7.png" alt="" class="logos__img">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-steering-line"></i> Elecar
+                    </a>
+                    <p class="footer__description">
+                        We offer the best electric cars of <br> 
+                        the most recognized brands in <br> 
+                        the world.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Company
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">About</a>    
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Cars</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">History</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Information
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Request a quote</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Find a dealer</a>
+                        </li>
+                        <li>
+                            <a href="https://ismak.webflow.io/contact" class="footer__link">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Follow us
+                    </h3>
+
+                    <ul class="footer__social">
+                        <a rel="noopener" href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a rel="noopener" href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a rel="noopener" href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">
+                &#169; Ismail Services. All rigths reserved
+            </span>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/popup.js"></script>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MIXITUP JS ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
