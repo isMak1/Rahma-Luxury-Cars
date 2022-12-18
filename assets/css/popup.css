@@ -43,7 +43,6 @@
 }
 
 .popupcontainer.active .content{
-  contain: size;
   opacity: 1;
   transform: scale(1);
   justify-content: center;
@@ -90,3 +89,11 @@
   transition: .3s;
 }
 
+@media screen and (min-width: 576px) {
+  .popupcontainer .content{
+    opacity: 0;
+  }
+  .popupcontainer.active{
+    opacity: 1;
+  }
+}

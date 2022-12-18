@@ -42,13 +42,6 @@
     --smaller-font-size: .813rem;
   }
 
-    .popupcontainer .content{
-    opacity: 0;
-    visibility: hidden;
-  }
-  .popupcontainer.active .content{
-    opacity: 1;
-  }
 }
 
 /*=============== BASE ===============*/
