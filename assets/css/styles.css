@@ -41,6 +41,13 @@
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
   }
+
+  .popupcontainer .content{
+    opacity: 0;
+  }
+  .popupcontainer.active .content{
+    opacity: 1;
+  }
 }
 
 /*=============== BASE ===============*/
@@ -953,6 +960,7 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
+
   .about__group {
     width: 350px;
     justify-self: center;
@@ -977,7 +985,6 @@ img {
   .offer__data {
     margin-bottom: 4rem;
   }
-
 }
 
 @media screen and (min-width: 767px) {

@@ -89,11 +89,3 @@
   transition: .3s;
 }
 
-@media screen and (min-width: 320px) {
-  .popupcontainer{
-    opacity: 0;
-  }
-  .popupcontainer.active{
-    opacity: 1;
-  }
-}
