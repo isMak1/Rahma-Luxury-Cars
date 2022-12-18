@@ -43,6 +43,7 @@
 }
 
 .popupcontainer.active .content{
+  contain: size;
   opacity: 1;
   transform: scale(1);
   justify-content: center;

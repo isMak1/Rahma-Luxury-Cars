@@ -42,8 +42,9 @@
     --smaller-font-size: .813rem;
   }
 
-  .popupcontainer .content{
+    .popupcontainer .content{
     opacity: 0;
+    visibility: hidden;
   }
   .popupcontainer.active .content{
     opacity: 1;
